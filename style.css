@@ -1,0 +1,124 @@
+* {
+    border: 0;
+    margin: 0;
+    /*border: 3px dotted red;*/
+    /*display: inline-block;*/
+}
+.wrapper {
+    margin: auto;
+    padding: 0 auto;
+    width: 940px;
+    background-color: #6F5964;
+}
+header h1, header h2,
+.about_section img, .about {
+    display: inline-block;
+}
+header {
+    padding-top: 20px;
+    width: 100%;
+    background-color: #F8F8F8;
+    height: 60px;
+}
+header h1 {
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+header h2 {
+    padding-top: 10px;
+}
+.about_section img {
+    border: 5px solid #C0C0C0;
+    width: 380px;
+    margin: 25px;
+    float: left;
+}
+.about {
+    vertical-align: top;
+    width: 458px;
+    margin: 25px 25px 25px 0;
+    height: 260px;
+    background-color: #FEFDFD;
+    display: inline-block;
+}
+.about h1{
+    color: #FFFFFF;
+    background-color: #C0C0C0;
+    padding-left: 15px;
+}
+.about p, a {
+    font-size: 1.08em;
+    margin: 10px;
+    color: #6F5964;
+}
+.clearfix {
+    overflow: auto;
+}
+.reference {
+    padding-left: 100px;
+}
+    .la_mode{
+        margin: 0 25px 25px 25px;
+    }
+    .fiveEleven {
+        margin-left: 25px;
+    }
+    .la_mode h1, .familyContacts h1, .fiveEleven h1 {
+        background-color: #C0C0C0;
+        color: #FFFFFF;
+        font-size: 1.5em;
+        padding: 8px;
+    }
+    .la_mode h2, .familyContacts h2, .fiveEleven h2 {
+        background-color: #C0C0C0;
+        color: #FFFFFF;
+        font-size: 1.2em;
+        padding: 8px;
+    }
+    .la_mode, .familyContacts, .fiveEleven {
+        width: 29.2%;
+        float: left;
+        background-color: #EAE2EA;
+    }
+    .la_mode p, .familyContacts p, .fiveEleven p {
+        padding: 10px 10px 50px 10px;
+    }
+    .displayPic {
+        width: 100%;
+    }
+    .imgTechnologies {
+        padding-left: 10px;
+    }
+    .technologies {
+        width: 35px;
+        padding: 5px ;
+    }
+    button {
+        padding: 5px;
+        background-color: #407D61;
+        color: #FFFFFF;
+        border-radius: 8px;
+        border: 1px solid black;
+        box-shadow: 2px 5px 4px #1E1C1C;
+        margin-left: 98px;
+        margin-bottom: 20px;
+    }
+footer, footer p a {
+    display: inline-block;
+    color: black;
+    padding-left: 190px;
+}
+    footer ul li {
+        display: inline-block;
+        text-decoration: none;
+    }
+    footer ul li img {
+        width: 18px;
+    }
+    footer ul {
+        padding-left: 120px;
+        padding-bottom: 50px;
+
+    }
+
